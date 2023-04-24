@@ -1,0 +1,7 @@
+1. Tutorial MQTT
+- https://kb.elipse.com.br/aplicacao-exemplo-driver-mqtt-em-comunicacao-com-broker-mosquitto-mqtt/#:~:text=O%20protocolo%20MQTT%20define%20dois,os%20clientes%20de%20destino%20relevantes.]
+
+2. O que é MQTT AWS
+- https://aws.amazon.com/pt/what-is/mqtt/#:~:text=O%20MQTT%20%C3%A9%20um%20protocolo,comunica%C3%A7%C3%A3o%20de%20computador%20para%20computador.
+
+3. 
