@@ -39,6 +39,15 @@ class _MedusaAppSate extends State<MedusaApp> {
             ),
           ],
         ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              child: Icon(Icons.access_alarms),
+            ),
+            
+          ],
+        ),
       ),
     );
   }
