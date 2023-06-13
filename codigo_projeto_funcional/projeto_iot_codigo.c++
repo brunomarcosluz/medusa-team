@@ -15,10 +15,10 @@ void loop()
     int valor_digital = digitalRead(PinSensor); // VARIÁVEL RECEBE O VALOR LIDO NO PINO DIGITAL
     // Serial.print("Leitura: ");                  // EXIBE O TEXTO NO MONITOR SERIAL
     // Serial.println(valor_digital);              // MOSTRA NO MONITOR SERIAL O VALOR LIDO DO PINO DIGITAL
-    if (valor_digital == 1) {  // SE O VALOR DIGITAL FOR POSITIVO (1) EXIBE A MENSAGEM DE GÁS DETECTADO
+    if (valor_digital < 1) {  // SE O VALOR DIGITAL FOR POSITIVO (1) EXIBE A MENSAGEM DE GÁS DETECTADO
         Serial.println("GÁS DETECTADO!!");
     } else {
-        Serial.prinln("GÁS INEXISTENTE");
+        Serial.println("GÁS INEXISTENTE");
     }
 
     if (valor_digital < leitura_sensor)
